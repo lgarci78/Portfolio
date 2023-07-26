@@ -77,3 +77,13 @@ h3 {
 li {
     list-style-type: none;
 }
+
+footer {
+    color: black;
+    text-align: center;
+    background-color: lightgray;
+    height: 100px;
+    width: 100%;
+    display: inline-block; 
+    margin-top: 250px;
+}
