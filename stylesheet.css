@@ -9,7 +9,7 @@ h1 {
     background-color: #ffffff;
     height: 75px;
     text-align: center;
-    font-size: 50px;
+    font-size: 55px;
     margin-top: 100px;
 }
 
@@ -27,8 +27,11 @@ h2 {
 }
 
 h2 li {
-    padding: 10px;
-    display:inline;
+  padding: 10px;
+  display:inline;
+  font-family: "Bangers";
+  font-size: 20px;
+  font-weight: 100;
 }
 
 li a:link {
@@ -68,11 +71,14 @@ div {
     font-family: "Trirong", serif;
 }
 
-h3 {
+.flex-container div h3 {
     position: relative;
     left: 30%;
-    font-weight: bolder;
+    font-weight:300;
+    font-family: "Bangers";
+    font-size: 25px;
 }
+
 
 li {
     list-style-type: none;
@@ -88,6 +94,8 @@ footer {
     width: 100%;
     text-align: center;
 }
+
+/* CONTACT CSS */
 
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
@@ -127,4 +135,107 @@ input[type=text], select, textarea {
 
 p {
     text-align: center;
+}
+
+
+
+/* SHOWCASE IMAGES  */
+
+.imagecontainer {
+    position: relative;
+}
+
+.mySlides {
+    display:none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.column {
+    float: left;
+    width: 16.66%;
+}
+
+.demo {
+    opacity: 0.6;
+  }
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+
+/* ABOUT ME */
+
+.row1 img {
+  margin-left: 250px;
+  margin-top: 50px;
+  display: flex;
+  
+}
+
+.row1 p {
+  display: flex;
+  width: 600px;
+  margin-top: 150px;
+  padding-left: 250px;
+}
+
+.row1 {
+  display: flex;
+  
 }
