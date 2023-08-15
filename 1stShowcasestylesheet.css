@@ -174,12 +174,12 @@ img {
 
 footer {
   color: black;
-  text-align: center;
+  text-align:right;
   background-color: lightgray;
   position:static;
   left: 0;
   bottom: 0;
   width: 100%;
-  text-align: center;
+  align-content: end;
 }
 
