@@ -92,6 +92,8 @@ h2 li {
     list-style-type: none;
 }
 
+
+
 /* SLIDE SHOW */
 
 * {box-sizing: border-box}
@@ -191,6 +193,8 @@ img {
   
 }
 
+/*Slide show above*/
+
 footer {
   color: black;
   text-align: right;
@@ -201,7 +205,7 @@ footer {
   display: flex; /* Use flexbox */
   align-items: center; /* Center vertically */
   justify-content: right; /* Center horizontally */
-  margin-top: 78px;
+  margin-top: 0px;
 }
 
 footer a{
